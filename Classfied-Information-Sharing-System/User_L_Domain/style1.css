@@ -1,0 +1,90 @@
+/* main */
+
+#main {
+    background: url('images/main.jpg') no-repeat bottom;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: left;
+    width: 305px;
+    font-size: 13px;
+}
+
+#sidebar #login, #sidebar .box {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    background: url('images/box.gif') no-repeat bottom;
+}
+
+#sidebar .box2 {
+    height: 1%;
+    padding: 20px 30px;
+    background: #36322F url('images/box.jpg') no-repeat top;
+}
+
+#sidebar h2 {
+    padding: 0 10px 0 30px;
+    font-size: 20px;
+    line-height: 64px;
+    background: #49433D url('images/h2.gif') no-repeat;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar ul li {
+    padding: .25em 0 .25em 25px;
+    line-height: 1.8em;
+    background: url('images/arrow.gif') no-repeat 0 .55em;
+}
+
+/* login */
+
+#login h2 {
+    font-size: 18px;
+    line-height: 52px;
+    height: 58px;
+    background: #49433D url('images/loginh2.gif') no-repeat;
+}
+
+#login form {
+    text-align: center;
+}
+
+#login form p {
+    padding: 5px 0;
+    text-align: center;
+}
+
+#login form p.txtleft {
+    padding: 15px 0 5px 35px;
+    text-align: left;
+}
+
+#login form p.rem {
+    padding-top: 15px;
+}
+
+#login input.text, #login input.password {
+    padding: 4px;
+    width: 190px;
+    font-size: 13px;
+    color: #444444;
+    background: #EAE8E7;
+    border: 1px solid #A59C95;
+    border-left: 1px solid #C8C1BC;
+    border-bottom: 1px solid #C8C1BC;
+}
+
+#login input.submit {
+    margin: 10px 0;
+    width: 100px;
+    height: 31px;
+    color: #A59C95;
+    background: #7F2525 url('images/submit.jpg') no-repeat;
+    border: none;
+    cursor: pointer;
+}

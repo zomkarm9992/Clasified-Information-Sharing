@@ -1,0 +1,32 @@
+body {margin:0; font-size:11px; line-height:16px; font-family:Arial, Tahoma, Helvetica, sans-serif; background-color:#000000; color:#FFFFFF;}
+a {color:#fdc605; text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:none;}
+h1 {font-size:24px; font-weight:bold; font-style:italic; color:#96ff00;}
+
+#all {background:url(images1/body_bckg.jpg) repeat-x #60ce1a;}
+#container {width:960px; margin:0 auto;}
+
+#header {background:url(images1/head_bckg.jpg) no-repeat #000000; height:186px;}
+#logo {padding:40px 25px; width:215px; float:left; text-align:center;}
+#logo a {color:#FFFFFF; text-decoration:none; font-size:16px; text-transform:uppercase;}
+#head {float:right; width:690px;}
+#head p {font-size:10px; color:#999999; line-height:10px; margin:0; padding:0 20px;}
+#head ul {list-style:none; padding:0; margin:30px 0; height:75px;}
+#head ul li {float:left; padding:0 18px;}
+#head a {display:block; width:192px; height:48px; color:#FFFFFF; text-decoration:none; background:url(images1/text_top_bckg.jpg) no-repeat; text-transform:uppercase; text-align:center; padding-top:28px; font-size:15px;}
+#head a:hover {background:url(images1/text_top_bckg_over.jpg) no-repeat;}
+
+#main {background:url(images1/textarea_bckg.jpg) no-repeat #000000; float:left; width:100%; min-height:250px;}
+#menu {float:left; width:215px; padding:25px;}
+#menu ul {list-style:none; padding:0; margin:0;}
+#menu a {font-size:14px; font-style:italic; text-decoration:none; color:#FFFFFF; display:block; width:180px; height:20px; padding:5px 10px 0 10px; border-bottom:1px solid #4c4c4c; text-transform:lowercase;}
+#menu a:hover {background-color:#1c1c1c;}
+#text {padding:15px 20px 20px 290px;}
+
+#footer {background:url(images1/footer_text.jpg) no-repeat #000000; height:16px; color:#858383; font-size:11px; padding:59px 30px 0 30px; clear:both;}
+#left_footer {float:left;}
+#right_footer {float:right;}
+
+#bottom {background:url(images1/footer_bckg.jpg) repeat-x #000000;}
+#bottom_center {width:960px; margin:0 auto; background:url(images1/center_foot.jpg) no-repeat #000000; height:191px;}
